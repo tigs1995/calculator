@@ -12,5 +12,7 @@ public class RemainderTest {
 		Remainder remainder = new Remainder();
 		Assert.assertEquals(1.0, remainder.getResult(1, 4), 0.00001);
 	}
+	
+	//adding a commit
 
 }
