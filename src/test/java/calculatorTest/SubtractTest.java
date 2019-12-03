@@ -1,14 +1,15 @@
 package calculatorTest;
 
-import static org.junit.Assert.*;
-
+import org.junit.Assert;
 import org.junit.Test;
+
+import calculator.Subtract;
 
 public class SubtractTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+			Assert.assertEquals(5.5, Subtract.getResult(10.5, 5), 0.0001);
 	}
 
 }
