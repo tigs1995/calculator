@@ -3,14 +3,13 @@ package calculatorTest;
 import org.junit.Assert;
 import org.junit.Test;
 
-import calculator.Calculator;
 import calculator.Divide;
 
 public class DivideTest {
 
 	@Test
 	public void divideTest() {
-		Divide divide = new Divide();
+		// Divide divide = new Divide(); Not needed, static methods don't need instances to be called.
 		double divTest = Divide.getResult(10, 2);
 		double divTest2 = Divide.getResult(-10, 2);
 		//double divTest3 = Divide.getResult(6,7);
