@@ -9,8 +9,5 @@ public class Divide {
 		return divide;
 
 	}
-	
-	
-	
 
 }

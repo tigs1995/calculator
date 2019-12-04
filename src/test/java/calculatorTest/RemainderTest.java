@@ -9,8 +9,9 @@ public class RemainderTest {
 
 	@Test
 	public void test() {
-		Remainder remainder = new Remainder();
-		Assert.assertEquals(1.0, remainder.getResult(1, 4), 0.00001);
+		//Remainder remainder = new Remainder(); // Static methods don't need an instance to call from.
+		//Assert.assertEquals(1.0, remainder.getResult(1, 4), 0.00001);
+		Assert.assertEquals(1.0, Remainder.getResult(1, 4), 0.00001);
 	}
 
 }
